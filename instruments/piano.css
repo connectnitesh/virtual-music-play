@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: #0d0d23 url('/images/drum-bckg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+  font-family: "Asul", sans-serif;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 1px 5px 25px #FF0060;
+  
+  }
+
+.set{
+  padding-top:10%;
+  padding-bottom:10%;
+  margin-left:230px;
+  display:flex;
+  /* margin:0 auto; */
+}
+
+.piano{
+  width:70px;
+  font-size: 3rem;
+  text-align:center;;
+}
+
+.up{
+  height:150px;
+  background-color: black;
+  color:white;
+}
+
+.dn{
+  height:240px;
+  background-color: white;
+}
+
+
+.pressed {
+  filter:brightness(22);
+}
+
+footer {
+  position: absolute;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  bottom:20px;
+  left:43%;
+  text-align: center;
+  color: #dbedf3ae;
+}
+
+footer a{
+  color:#ff1a72;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color:#c30658;
+}
+
+
+.go-back{
+font-size: 1.2rem;
+text-decoration: none;
+position: absolute;
+right:50px;
+background-color: transparent;
+color:white;
+padding:8px;
+border-radius: 20px;
+box-shadow: 1px 1px 25px #FF0060;
+}
+
+.go-back a{
+color:white;
+text-decoration: none;
+}
